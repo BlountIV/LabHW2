@@ -17,6 +17,7 @@ app.get('/magic/:phrase', (req, res) => {
 
     let guidance = phrases [Math.floor(Math.random() * phrases.length)]
     res.send(req.params.phrase + `<h1>${guidance}</h1>`);
+});
 
 
 
